@@ -8,6 +8,12 @@ namespace WinFormsApp1
 {
     public class Product
     {
+        public Product(string name)
+        {
+            ProductName = name; 
+        }
         public int MyProperty { get; set; }
+        public string? ProductName { get; set; }
+        public double UnitPrice { get; set; }
     }
 }
